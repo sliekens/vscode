@@ -46,6 +46,8 @@ const dirs = [
 	'extensions/vscode-colorize-tests',
 	'extensions/vscode-colorize-perf-tests',
 	'extensions/vscode-test-resolver',
+	'extensions/xml-language-features',
+	'extensions/xml-language-features/server',
 	'remote',
 	'remote/web',
 	'test/automation',

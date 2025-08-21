@@ -1,0 +1,26 @@
+{
+  "name": "vscode-xml-languageserver",
+  "description": "XML language server",
+  "version": "1.0.0",
+  "author": "Microsoft Corporation",
+  "license": "MIT",
+  "engines": {
+    "node": "*"
+  },
+  "main": "./out/node/xmlServerMain",
+  "dependencies": {
+    "@vscode/l10n": "^0.0.18",
+    "vscode-languageserver": "^10.0.0-next.13",
+    "vscode-languageserver-textdocument": "^1.0.12",
+    "vscode-uri": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/mocha": "^9.1.1",
+    "@types/node": "22.x"
+  },
+  "scripts": {
+    "compile": "npx gulp compile-extension:xml-language-features-server",
+    "watch": "npx gulp watch-extension:xml-language-features-server",
+    "test": "npm run compile && node ./test/index.js"
+  }
+}
