@@ -1,0 +1,6 @@
+**/.DS_Store
+**/node_modules
+**/out
+client/src/test
+server/lib/chai.d.ts
+server/lib/mocha.d.ts
